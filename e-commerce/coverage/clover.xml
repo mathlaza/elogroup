@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1679672894841" clover="3.2.0">
+  <project timestamp="1679672894842" name="All files">
+    <metrics statements="5" coveredstatements="5" conditionals="14" coveredconditionals="7" methods="0" coveredmethods="0" elements="19" coveredelements="12" complexity="0" loc="5" ncloc="5" packages="1" files="1" classes="1"/>
+    <file name="config.js" path="/Users/matheusmartinez/Desktop/elogroup/e-commerce/src/config/config.js">
+      <metrics statements="5" coveredstatements="5" conditionals="14" coveredconditionals="7" methods="0" coveredmethods="0"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="3" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="25" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
