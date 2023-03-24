@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-    <img src="images/MER.png" alt="MER_IMAGE" width="700" height="370">
+    <img src="e-commerce/images/MER.png" alt="MER_IMAGE" width="700" height="370">
   </a>
   
   <p align="center">
@@ -35,13 +35,19 @@ Com isso, através de ferramentas visuais de gerenciamento de banco de dados MyS
 
 O projeto também conta com testes do procedimento de inserção e obtenção de dados.
 
-<img src="images/TABLES.gif" alt="MER_IMAGE" width="700" height="370">
+<br>
+
+  <div align="center">
+    <img src="e-commerce/images/TABLES.gif" alt="MER_IMAGE" width="700" height="370">
+  </div>
+
 </div>
+
 <p align="center">
     Queries e visualização das tabelas com o MySQL Workbench 
-    <br />
-  </p>
+</p>
 
+<br>
 <br>
 
 # Tecnologias utilizadas
