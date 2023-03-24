@@ -19,7 +19,7 @@ module.exports = (sequelize, DataTypes) => {
     },
     Subgrupo: {
       type: DataTypes.STRING
-    },
+    }
   },
     {
       timestamps: false,
@@ -27,6 +27,11 @@ module.exports = (sequelize, DataTypes) => {
       tableName: 'DIM_Produto'
     }
   );
+
+  ProdutoTable.associate = (models) => {
+    ProdutoTable.hasMany(models.VendasTable,
+    { foreignKey: 'ID_produto', as: 'produto' });
+  };
 
   return ProdutoTable;
 };

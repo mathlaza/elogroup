@@ -22,5 +22,10 @@ module.exports = (sequelize, DataTypes) => {
     }
   );
 
+  ClienteTable.associate = (models) => {
+    ClienteTable.hasMany(models.VendasTable,
+    { foreignKey: 'ID_cliente', as: 'cliente' });
+  };
+
   return ClienteTable;
 };

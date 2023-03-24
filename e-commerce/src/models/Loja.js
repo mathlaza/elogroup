@@ -19,5 +19,10 @@ module.exports = (sequelize, DataTypes) => {
     }
   );
 
+  LojaTable.associate = (models) => {
+    LojaTable.hasMany(models.VendasTable,
+    { foreignKey: 'ID_loja', as: 'loja' });
+  };
+
   return LojaTable;
 };

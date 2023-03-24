@@ -23,7 +23,7 @@ module.exports = {
       },
       Subgrupo: {
         type: Sequelize.STRING(255)
-      },
+      }
     })
   },
 
