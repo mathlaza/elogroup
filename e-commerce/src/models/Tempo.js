@@ -15,7 +15,7 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.INTEGER
     },
     Data: {
-      type: DataTypes.INTEGER
+      type: DataTypes.DATE
     }
   },
     {
