@@ -11,9 +11,7 @@ module.exports = {
         references: {
           model: 'DIM_Loja',
           key: 'ID_loja',
-        },
-        onUpdate: 'CASCADE',
-        onDelete: 'CASCADE',
+        }
       },
       ID_produto: {
         allowNull: false,
@@ -23,9 +21,7 @@ module.exports = {
         references: {
           model: 'DIM_Produto',
           key: 'ID_produto',
-        },
-        onUpdate: 'CASCADE',
-        onDelete: 'CASCADE',
+        }
       },
       ID_cliente: {
         allowNull: false,
@@ -35,9 +31,7 @@ module.exports = {
         references: {
           model: 'DIM_Cliente',
           key: 'ID_cliente',
-        },
-        onUpdate: 'CASCADE',
-        onDelete: 'CASCADE',
+        }
       },
       ID_tempo: {
         allowNull: false,
@@ -47,15 +41,15 @@ module.exports = {
         references: {
           model: 'DIM_Tempo',
           key: 'ID_tempo',
-        },
-        onUpdate: 'CASCADE',
-        onDelete: 'CASCADE',
+        }
       },
       Qtde_vendida: {
+        allowNull: false,
         type: Sequelize.INTEGER
       },
       Receita_venda: {
-        type: Sequelize.DECIMAL(9,2)
+        allowNull: false,
+        type: Sequelize.DECIMAL(38,2)
       }
     })
   },
