@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-    <img src="e-commerce/images/MER.png" alt="MER_IMAGE" width="700" height="370">
+    <img src="e-commerce/images/MER.png" alt="MER_IMAGE">
   </a>
   
   <p align="center">
@@ -38,7 +38,7 @@ O projeto também conta com testes do procedimento de inserção e obtenção de
 <br>
 
   <div align="center">
-    <img src="e-commerce/images/TABLES.gif" alt="MER_IMAGE" width="700" height="370">
+    <img src="e-commerce/images/TABLES.gif" alt="TABLE_GIF">
   </div>
 
 </div>
