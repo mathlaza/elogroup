@@ -1,26 +1,23 @@
 module.exports = (sequelize, DataTypes) => {
-  const ClienteTable = sequelize.define('DIM_Cliente', {
-    ID_cliente: {
+  const LojaTable = sequelize.define('DIM_Loja', {
+    ID_loja: {
       type: DataTypes.INTEGER,
       autoIncrement: true,
       primaryKey: true
     },
-    Estado_civil: {
-      type: DataTypes.STRING
+    Cod_loja: {
+      type: DataTypes.INTEGER
     },
-    Sexo: {
-      type: DataTypes.STRING
-    },
-    Bairro: {
+    Nm_loja: {
       type: DataTypes.STRING
     }
   },
     {
       timestamps: false,
       underscored: true,
-      tableName: 'DIM_Cliente'
+      tableName: 'DIM_Loja'
     }
   );
 
-  return ClienteTable;
+  return LojaTable;
 };
