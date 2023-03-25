@@ -23,7 +23,7 @@
 <!-- Sobre o projeto -->
 # Sobre o projeto
 <div>
-Projeto desenvolvido com o objetivo de modelar um banco de dados de uma loja de e-commerce, com modelo de dados previamente disponibilizado, visando verificar sua funcionalidade, avaliando melhorias para futuras consruções de relatórios.
+Projeto desenvolvido com o objetivo de modelar um banco de dados de uma loja de e-commerce, com modelo de dados previamente disponibilizado, visando verificar sua funcionalidade, avaliando melhorias para futuras construções de relatórios.
 
 <br>
 
