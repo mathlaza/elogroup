@@ -3,7 +3,7 @@ module.exports = {
     await queryInterface.bulkInsert('DIM_Produto',
       [{
         ID_produto: 1,
-        Cod_produto: 145,
+        Cod_produto: 120,
         Nm_produto: 'Monitor',
         Seção: 'Eletronico',
         Grupo: 'Tecnologia',
@@ -43,7 +43,7 @@ module.exports = {
       },
       {
         ID_produto: 6,
-        Cod_produto: 321,
+        Cod_produto: 55,
         Nm_produto: 'Tenis',
         Seção: 'Vestimenta',
         Grupo: 'Calçados',
@@ -107,7 +107,7 @@ module.exports = {
       },
       {
         ID_produto: 14,
-        Cod_produto: 78,
+        Cod_produto: 142,
         Nm_produto: 'Meia',
         Seção: 'Vestimenta',
         Grupo: 'Meias',
@@ -131,7 +131,7 @@ module.exports = {
       },
       {
         ID_produto: 17,
-        Cod_produto: 112,
+        Cod_produto: 120,
         Nm_produto: 'Notebook',
         Seção: 'Eletronico',
         Grupo: 'Tecnologia',
@@ -155,7 +155,7 @@ module.exports = {
       },
       {
         ID_produto: 20,
-        Cod_produto: 511,
+        Cod_produto: 142,
         Nm_produto: 'Jaqueta',
         Seção: 'Vestimenta',
         Grupo: 'Roupas',

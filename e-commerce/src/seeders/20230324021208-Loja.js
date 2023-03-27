@@ -23,7 +23,7 @@ module.exports = {
       },
       {
         ID_loja: 5,
-        Cod_loja: 90,
+        Cod_loja: 32,
         Nm_loja: 'Ana July'
       },
       {
@@ -43,7 +43,7 @@ module.exports = {
       },
       {
         ID_loja: 9,
-        Cod_loja: 897,
+        Cod_loja: 32,
         Nm_loja: 'Hortênsias Moda'
       },
       {
@@ -68,7 +68,7 @@ module.exports = {
       },
       {
         ID_loja: 14,
-        Cod_loja: 511,
+        Cod_loja: 32,
         Nm_loja: 'SNAP'
       },
       {
@@ -88,7 +88,7 @@ module.exports = {
       },
       {
         ID_loja: 18,
-        Cod_loja: 98,
+        Cod_loja: 32,
         Nm_loja: 'Doce Encanto'
       },
       {
