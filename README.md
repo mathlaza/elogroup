@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-    <img src="e-commerce/images/MER.png" alt="MER_IMAGE">
+    <img src="e-commerce/images/DER.png" alt="DER_IMAGE">
   </a>
   
   <p align="center">
