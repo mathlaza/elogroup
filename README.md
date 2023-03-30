@@ -33,7 +33,7 @@ A aplicação popula um banco de dados MySQL com o ORM (Mapeamento objeto-relaci
 Com isso, através de ferramentas visuais de gerenciamento de banco de dados MySQL (Workbench, por exemplo), é possível realizar queries e consultas nas tabelas criadas com a aplicação, identificando funcionalidades e melhorias no modelo.
 <br>
 
-O projeto também conta com testes do procedimento de inserção e obtenção de dados.
+O projeto também conta com testes do procedimento de inserção e obtenção de dados, para verificar se os dados foram corretamente armazenados.
 
 <br>
 
